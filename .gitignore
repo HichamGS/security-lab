@@ -1,1 +1,40 @@
-.gitignore
+```
+# Dependencies
+vendor/
+node_modules/
+
+# Build artifacts
+public/build/
+public/css/app.css
+public/js/app.js
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+storage/logs/*.log
+*.log
+
+# Cache
+bootstrap/cache/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Compiled PHP
+*.php~
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.phpunit.result.cache
+```
